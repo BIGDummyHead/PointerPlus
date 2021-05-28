@@ -71,5 +71,15 @@ namespace PointerPlus
         /// </summary>
         /// <returns></returns>
         public T Back() => Pointer.To<T>();
+
+        /// <summary>
+        /// Implicit, used for methods with T args.
+        /// </summary>
+        /// <param name="o"></param>
+        public static implicit operator ExactPtr<T>(T o)
+        {
+            return new ExactPtr<T>(GCHandle.Alloc(o));
+        }
     }
+
 }

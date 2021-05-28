@@ -42,6 +42,19 @@
             <see cref="M:PointerPlus.ExactPtr`1.Free"/>
             </summary>
         </member>
+        <member name="M:PointerPlus.ExactPtr`1.Back">
+            <summary>
+            Convert back to <typeparamref name="T"/>
+            <para>Will throw if <see cref="M:PointerPlus.ExactPtr`1.Free"/></para>
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PointerPlus.ExactPtr`1.op_Implicit(`0)~PointerPlus.ExactPtr{`0}">
+            <summary>
+            Implicit, used for methods with T args.
+            </summary>
+            <param name="o"></param>
+        </member>
         <member name="T:PointerPlus.PointerExtensions">
             <summary>
             Extensions.
