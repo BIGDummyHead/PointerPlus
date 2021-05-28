@@ -15,25 +15,28 @@ ________________________________________________________
 
 #### In this main example it is shown how to use the [Ptr](https://github.com/BIGDummyHead/PointerHelper/blob/master/PointerHelper/Ptr.cs) structure is used.
 
-![Main Example](https://github.com/BIGDummyHead/PointerHelper/blob/master/ExamplePictures/unsafe_Pointer.png)
+![Main Example](https://github.com/BIGDummyHead/PointerPlus/blob/master/ExamplePictures/unsafe_Pointer.png)
 
 ## Memory
 
 #### See this next example:
 
-![Mem](https://github.com/BIGDummyHead/PointerHelper/blob/master/ExamplePictures/memExample.png)
+![Mem](https://github.com/BIGDummyHead/PointerPlus/blob/master/ExamplePictures/memExample.png)
 
 ## Ptr Structure
 
 #### Please take a look at the Ptr structure.
 
-![ptrex](https://github.com/BIGDummyHead/PointerHelper/blob/master/ExamplePictures/ptrExample.png)
+![ptrex](https://github.com/BIGDummyHead/PointerPlus/blob/master/ExamplePictures/ptrExample.png)
 
 
 ## Ptr : [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=net-5.0)
 
-![disposable pic](https://github.com/BIGDummyHead/PointerHelper/blob/master/ExamplePictures/idispose.png)
+![disposable pic](https://github.com/BIGDummyHead/PointerPlus/blob/master/ExamplePictures/idispose.png)
 
+## ExactPtr<T> : [IDisposable](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable?view=net-5.0)
+  
+![exact_pic](https://github.com/BIGDummyHead/PointerPlus/blob/master/ExamplePictures/exact.png)
 
 # Dependencies
 
