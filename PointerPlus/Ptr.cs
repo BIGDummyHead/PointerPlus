@@ -28,12 +28,12 @@ namespace PointerPlus
         /// </summary>
         public GCHandle Handle { get; }
 
-        private int mem;
+        private long mem;
         /// <summary>
         /// A direct reference to the memory to make an IntPtr
         /// <para>Will return -1 if <see cref="Handle"/> or <seealso cref="Pointer"/> is default</para>
         /// </summary>
-        public int Memory
+        public long Memory
         {
             get
             {
@@ -44,7 +44,7 @@ namespace PointerPlus
                     return -1;
 
                 if (mem <= -1)
-                    mem = Pointer.ToInt32();
+                    mem = Pointer.ToInt64();
 
                 return mem;
             }
