@@ -73,6 +73,16 @@ namespace PointerPlus
         public T Back() => Pointer.To<T>();
 
         /// <summary>
+        /// Frees and then sets the value.
+        /// </summary>
+        /// <param name="val"></param>
+        public void Set(T val)
+        {
+            this.Free();
+            this = val;
+        }
+
+        /// <summary>
         /// Implicit, used for methods with T args.
         /// </summary>
         /// <param name="o"></param>

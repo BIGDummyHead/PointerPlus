@@ -49,6 +49,12 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:PointerPlus.ExactPtr`1.Set(`0)">
+            <summary>
+            Frees and then sets the value.
+            </summary>
+            <param name="val"></param>
+        </member>
         <member name="M:PointerPlus.ExactPtr`1.op_Implicit(`0)~PointerPlus.ExactPtr{`0}">
             <summary>
             Implicit, used for methods with T args.
